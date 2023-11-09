@@ -1,8 +1,11 @@
-import lec3_my_module
+ # Модуль lec_3_import.py
 
-print(lec3_my_module.a)
+# Инструкция, целиком загружающая модуль
+import lec_3_my_module
 
-b = lec3_my_module.b * 3
+print(lec_3_my_module.a)
+
+b = lec_3_my_module.b * 3
 print(b)
 
-print(lec3_my_module.c[2]) 
+print(lec_3_my_module.c[2])
